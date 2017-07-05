@@ -4,7 +4,7 @@
 }
 
 .header {
-    background-image: url(../images/the-flatiron-building.png);
+    background-image: url('/resources/images/the-flatiron-building.png');
 }
 
 h1 {
@@ -16,22 +16,29 @@ h1 {
 h2 {
     font-size: 32px;
     font-weight: bold;
+    color: gray;
 }
 
 h3 {
     font-size: 23px;
     font-weight: bold;
+    color: gray;
 }
 
 h4 {
     font-size: 14px;
     font-weight: normal;
+    color: gray;
 }
 
 h5 {
     font-size: 23px;
     font-weight: bold;
     color: white;
+}
+
+.img {
+    opacity: .5;
 }
 
 .footer {
